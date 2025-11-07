@@ -1,4 +1,4 @@
-module onchain-calculator
+module asset-nav
 
 go 1.25.3
 

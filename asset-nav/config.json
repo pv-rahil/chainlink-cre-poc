@@ -1,0 +1,11 @@
+{
+  "schedule": "0 */1 * * * *",
+  "apiUrl": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd",
+  "evms": [
+    {
+      "consumerAddress": "0xd68558CEB4F472143DcEC7f9e8b0279fF0f7784a",
+      "chainSelector": 16015286601757825753,
+      "gasLimit": 1000000
+    }
+  ]
+}
