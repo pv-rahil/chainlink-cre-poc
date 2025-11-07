@@ -67,7 +67,8 @@ The `AssetNavContract` is deployed on Ethereum Sepolia testnet at:
 
 ## Prerequisites
 
-1. **CRE SDK (v0.6.0-alpha)**: Install the Chainlink CRE CLI
+1. **CRE SDK (v0.6.0-alpha): Install the Chainlink CRE CLI from the release page:**
+[https://github.com/smartcontractkit/cre-cli/releases/tag/v0.6.0-alpha.0](https://github.com/smartcontractkit/cre-cli/releases/tag/v0.6.0-alpha.0) (as this POC performed using this version)
 2. **Go 1.25.3+**: Required for building the workflow
 3. **Funded Wallet**: Private key with Sepolia ETH for gas fees
 
@@ -98,6 +99,8 @@ go mod download
 ```
 
 ## Running the Workflow
+
+* Copy the downloaded Chainlink CRE executable into the `asset-nav` directory.
 
 ### Local Simulation
 Navigate to the workflow directory and run the simulation:
